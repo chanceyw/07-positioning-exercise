@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.container {
+  position: absolute;
+  background-color: yellow;
+  width: 450px;
+  margin-left: 10%;
+  height: 450px;
+  margin-top: 40px;
+  border: solid green 1px;
+}
+.title {
+  margin-left: 85px;
+  color: #1FB64C;
+  padding-bottom: 30px;
+}
+
+.list{
+  margin-left: 40px;
+  background: green;
+  width: 300px;
+}
+.list li{
+  margin-left: 27px;
+  font-size: 1.5rem;
+}
+
+}
