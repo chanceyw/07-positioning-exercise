@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -8,7 +9,7 @@ html {
   position: absolute;
   width: 450px;
   margin-left: 10%;
-  height: 450px;
+
   margin-top: 40px;
   border: solid grey 1px;
   border-radius: 15px;
@@ -17,6 +18,10 @@ html {
   margin-left: 65px;
   color: #1FB64C;
   padding-bottom: 25px;
+
+}
+.list-head {
+  color: #9799A7;
 }
 
 .list{
@@ -43,25 +48,26 @@ html {
 .img{
   margin-left: 30px;
   margin-top: -5px;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   display: inline-block;
 }
 
 .img i {
-  padding-right: 20px;
+  padding-right: 30px;
   color: #CFCFCF;
+  font-size: 4rem;
 }
 
 .two {
   position: relative;
-  bottom: 405px;
-  left: 390px;
+  bottom: 420px;
+  left: 355px;
   color: #FFFFFF;
-  font-size: 40px;
+  font-size: 55px;
   background-color: #CECFD5;
-  width: 90px;
-  height:90px;
+  width: 125px;
+  height: 125px;
   text-align: center;
   border-radius: 50%;
-  line-height: 85px;
+  line-height: 125px;
 }
